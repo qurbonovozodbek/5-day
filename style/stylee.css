@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 776px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.box {
+    border-radius: 32px;
+    background:  #fff;
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+    height: 512px;
+    display: flex;
+}
+.ong {
+    width: 368px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    padding: 38px 54px 46px 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ong-boshi {
+    color: #CAC9FF;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.oval {
+    background-image: url(./Oval.svg);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px; 
+}
+p {
+    color:  #CAC9FF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ong h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+.ong p {
+    color:  #CAC9FF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.chap {
+    padding: 38px 40px 46px 40px;
+}
+.chap h2 {
+    color: #303B59;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.cards {
+    width: 288px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;  
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.img {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cards span {
+    color: #F55;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cards1 {
+    width: 288px;
+    border-radius: 12px;
+background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.cards1 span {
+    color: #FFB21E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cards2 {
+    width: 288px;
+    border-radius: 12px;
+background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.cards2 span {
+    color: #00BB8F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cards3 {
+    width: 288px;
+    border-radius: 12px;
+background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards3 span {
+    color: #1125D6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn {
+    padding: 16px;
+    background-color: #303B59;
+    border: none;
+    width: 100%;
+    border-radius: 128px;
+    margin-top: 40px;
+
+    color: var(--White, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btn:hover {
+    box-shadow: 14px 12px 13px -5px rgba(0,0,0,0.75);
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    cursor: pointer;
+}
+.btn:active {
+    background: rgb(71, 71, 176);
+}
